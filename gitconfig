@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = jalil.yahy@gmail.com
+	name = Yahya Abdeljalil
