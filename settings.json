@@ -49,12 +49,15 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
-        "**/audits/**": true,
-        "**/coverage/**": true,
-        "**/log/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
-        "**/vendor/**": true
+      "**/.bloop": true,
+      "**/.metals": true,
+      "**/.ammonite": true,
+      "**/audits/**": true,
+      "**/coverage/**": true,
+      "**/log/**": true,
+      "**/node_modules/**": true,
+      "**/tmp/**": true,
+      "**/vendor/**": true
     },
     "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
